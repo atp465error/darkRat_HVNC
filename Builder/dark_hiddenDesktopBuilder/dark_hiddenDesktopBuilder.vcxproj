@@ -23,7 +23,7 @@
     <ProjectGuid>{A0A63585-A036-4F3B-AB01-7FCF95FD2D88}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>darkhiddenDesktopBuilder</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,6 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,7 +155,12 @@
     <ClCompile Include="dark_hiddenDesktopBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="antidbg.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="rawClient.h" />
     <ClInclude Include="rawControllServer.h" />
+    <ClInclude Include="rc4.h" />
     <ClInclude Include="Runpe.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

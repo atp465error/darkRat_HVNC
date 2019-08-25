@@ -1,4 +1,6 @@
-﻿  hiddenDesktop.cpp
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Der Prozess kann nicht auf die Datei "C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\Release\CL.write.1.tlog" zugreifen, da sie von einem anderen Prozess verwendet wird.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Der Prozess kann nicht auf die Datei "C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\Release\vc110.idb" zugreifen, da sie von einem anderen Prozess verwendet wird.
+  hiddenDesktop.cpp
 hiddenDesktop.cpp(2): warning C4081: expected 'identifier'; found '('
 c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(389): warning C4551: function call missing argument list
 c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(395): warning C4551: function call missing argument list

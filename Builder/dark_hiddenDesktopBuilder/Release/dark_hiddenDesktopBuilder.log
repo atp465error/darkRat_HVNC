@@ -1,6 +1,13 @@
 ﻿  dark_hiddenDesktopBuilder.cpp
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\base64.h(67,57): warning C4267:  "=": Konvertierung von "size_t" nach "unsigned char", Datenverlust möglich
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\base64.h(84,56): warning C4267:  "=": Konvertierung von "size_t" nach "unsigned char", Datenverlust möglich
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\antidbg.h(812,39): warning C4307:  "*": Überlauf einer ganzzahligen Konstanten
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\antidbg.h(812,39): warning C4307:  "+": Überlauf einer ganzzahligen Konstanten
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\antidbg.h(812,39): warning C4309:  "static_cast": Verkürzung eines konstanten Wertes
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\antidbg.h(837,46): warning C4307:  "*": Überlauf einer ganzzahligen Konstanten
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Builder\dark_hiddenDesktopBuilder\antidbg.h(837,46): warning C4307:  "+": Überlauf einer ganzzahligen Konstanten
   Code wird generiert.
   Previous IPDB not found, fall back to full compilation.
-  All 109 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 750 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Codegenerierung ist abgeschlossen.
   dark_hiddenDesktopBuilder.vcxproj -> C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Release\dark_hiddenDesktopBuilder.exe
