@@ -1,0 +1,7 @@
+﻿  hiddenDesktop.cpp
+hiddenDesktop.cpp(2): warning C4081: expected 'identifier'; found '('
+c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(389): warning C4551: function call missing argument list
+c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(395): warning C4551: function call missing argument list
+c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(398): warning C4551: function call missing argument list
+c:\users\darkspider\source\repos\darkrat_hiddendesktop\client\hiddendesktop\HiddenDesktop.h(430): warning C4102: 'exit' : unreferenced label
+  hiddenDesktop.vcxproj -> C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Release\Client.exe

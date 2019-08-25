@@ -1,0 +1,11 @@
+﻿  hiddenDesktop.cpp
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\hiddenDesktop.cpp(2,9): warning C4081:  "Bezeichner" erwartet; "(" gefunden
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(229,21): error C2760:  Syntaxfehler: Unerwartetes Token "Bezeichner". Erwartet: Typspezifizierer
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\ShlObj.h(2228,2): warning C4091:  "typedef ": Ignoriert auf der linken Seite von "tagDTI_ADTIWUI", wenn keine Variable deklariert wurde
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(102,28): error C2664:  "BOOL GetVersionExA(LPOSVERSIONINFOA)" : Konvertierung von Argument 1 von "OSVERSIONINFO *" in "LPOSVERSIONINFOA" nicht möglich
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(102,16): message :  Die Typen, auf die verwiesen wird, sind nicht verknüpft; die Konvertierung erfordert einen reinterpret_cast-Operator oder eine Typumwandlung im C- oder Funktionsformat.
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(276,33): error C2664:  "HMODULE LoadLibraryW(LPCWSTR)" : Konvertierung von Argument 1 von "const char [10]" in "LPCWSTR" nicht möglich
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(276,22): message :  Die Typen, auf die verwiesen wird, sind nicht verknüpft; die Konvertierung erfordert einen reinterpret_cast-Operator oder eine Typumwandlung im C- oder Funktionsformat.
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(389,3): warning C4551:  Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(395,4): warning C4551:  Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\darkspider\source\repos\darkrat_hiddendesktop\Client\hiddenDesktop\HiddenDesktop.h(398,4): warning C4551:  Dem Funktionsaufruf fehlt die Argumentliste
