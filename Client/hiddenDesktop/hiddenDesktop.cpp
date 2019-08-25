@@ -29,9 +29,15 @@
 
 
 
-
-int main()
-{
+#if _DEBUG
+int main(int argc, char* argv[]) {
+#endif
+#if NDEBUG 
+	int WINAPI WinMain(HINSTANCE hInstance,    // HANDLE TO AN INSTANCE.  This is the "handle" to YOUR PROGRAM ITSELF.
+		HINSTANCE hPrevInstance,// USELESS on modern windows (totally ignore hPrevInstance)
+		LPSTR szCmdLine,        // Command line arguments.  similar to argv in standard C programs
+		int iCmdShow) {
+#endif
 	char* server;
 	HMODULE hModule = GetModuleHandle(NULL);
 	HRSRC hResource = FindResource(hModule, MAKEINTRESOURCE(10), RT_RCDATA);
