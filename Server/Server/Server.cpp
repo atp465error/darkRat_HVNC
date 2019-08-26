@@ -277,8 +277,8 @@ static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
          MINMAXINFO* mmi = (MINMAXINFO *) lParam;
          mmi->ptMinTrackSize.x = gc_minWindowWidth;
          mmi->ptMinTrackSize.y = gc_minWindowHeight;
-         mmi->ptMaxTrackSize.x = gc_minWindowWidth;
-         mmi->ptMaxTrackSize.y = gc_minWindowHeight;
+         mmi->ptMaxTrackSize.x = 1920;
+         mmi->ptMaxTrackSize.y = 1080;
          break;
       }
       default:

